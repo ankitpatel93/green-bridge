@@ -7,13 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D1F13611DF318BA00E908BE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1F13601DF318BA00E908BE /* LoginViewController.swift */; };
 		6D3912EF1DF29392005EA317 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3912EE1DF29392005EA317 /* AppDelegate.swift */; };
-		6D3912F11DF29392005EA317 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3912F01DF29392005EA317 /* ViewController.swift */; };
 		6D3912F41DF29392005EA317 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D3912F21DF29392005EA317 /* Main.storyboard */; };
 		6D3912F61DF29392005EA317 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D3912F51DF29392005EA317 /* Assets.xcassets */; };
 		6D3912F91DF29392005EA317 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D3912F71DF29392005EA317 /* LaunchScreen.storyboard */; };
 		6D3913041DF29393005EA317 /* GreenBridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3913031DF29393005EA317 /* GreenBridgeTests.swift */; };
 		6D39130F1DF29393005EA317 /* GreenBridgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D39130E1DF29393005EA317 /* GreenBridgeUITests.swift */; };
+		6D3E002C1DF2E0B200B2A394 /* AppDelegate+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E002B1DF2E0B200B2A394 /* AppDelegate+Helper.swift */; };
+		6D3E00351DF2E3CB00B2A394 /* CustomProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E00341DF2E3CB00B2A394 /* CustomProgressView.swift */; };
+		6D3E00371DF2E65E00B2A394 /* CustomLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E00361DF2E65E00B2A394 /* CustomLoadingView.swift */; };
+		6D3E00391DF2E68200B2A394 /* CoreExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E00381DF2E68200B2A394 /* CoreExtension.swift */; };
+		6D3E003B1DF2E6D100B2A394 /* CustomNoDataFoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E003A1DF2E6D100B2A394 /* CustomNoDataFoundView.swift */; };
+		6D3E003D1DF2E85600B2A394 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E003C1DF2E85600B2A394 /* Reachability.swift */; };
+		6D3E003F1DF2EABA00B2A394 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E003E1DF2EABA00B2A394 /* CustomNavigationController.swift */; };
+		6D3E00411DF2EAD100B2A394 /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E00401DF2EAD100B2A394 /* CustomNavigationBar.swift */; };
+		6D3E00431DF2EAEF00B2A394 /* UIVerticallyCenteredTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E00421DF2EAEF00B2A394 /* UIVerticallyCenteredTextView.swift */; };
+		6D3E00451DF2EB0800B2A394 /* CheckBoxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E00441DF2EB0800B2A394 /* CheckBoxButton.swift */; };
+		6D3E00471DF2EB2400B2A394 /* StickyHeaderCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E00461DF2EB2400B2A394 /* StickyHeaderCollectionViewFlowLayout.swift */; };
+		6D3E00491DF2EB3A00B2A394 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E00481DF2EB3A00B2A394 /* BaseCollectionViewCell.swift */; };
+		6D3E004B1DF2EB4B00B2A394 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E004A1DF2EB4B00B2A394 /* BaseTableViewCell.swift */; };
+		6D3E004F1DF2EF6200B2A394 /* TopSlideInToastMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E004E1DF2EF6200B2A394 /* TopSlideInToastMessage.swift */; };
+		6D3E00511DF3031B00B2A394 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E00501DF3031B00B2A394 /* ApiService.swift */; };
+		6D3E00531DF3033800B2A394 /* ApiService+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E00521DF3033800B2A394 /* ApiService+Helper.swift */; };
+		6D3E00551DF303F500B2A394 /* CoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E00541DF303F500B2A394 /* CoreViewController.swift */; };
+		6DDE3F641DF3D31800BCAA84 /* LoginViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDE3F631DF3D31800BCAA84 /* LoginViewCell.swift */; };
+		6DDE3F671DF3D51C00BCAA84 /* NoBorderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDE3F661DF3D51C00BCAA84 /* NoBorderTextField.swift */; };
+		6DF999B61DF3A5F400116134 /* AppDelegate+AssetsNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF999B51DF3A5F400116134 /* AppDelegate+AssetsNames.swift */; };
+		A36099BF3189B4B0DB4E2216 /* Pods_GreenBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8065B6CA89B002CAA7E2CEBA /* Pods_GreenBridge.framework */; };
+		B44E7AA716ACE59D6E565043 /* Pods_GreenBridgeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F9BE554461E5DCAE6EA8B4 /* Pods_GreenBridgeUITests.framework */; };
+		DB4A03462F99E55B6DB02337 /* Pods_GreenBridgeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A22C64FC322E68E81F05FD5 /* Pods_GreenBridgeTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +57,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09F9BE554461E5DCAE6EA8B4 /* Pods_GreenBridgeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreenBridgeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16B874350DE2D9A17A95F55A /* Pods-GreenBridge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenBridge.release.xcconfig"; path = "Pods/Target Support Files/Pods-GreenBridge/Pods-GreenBridge.release.xcconfig"; sourceTree = "<group>"; };
+		2334B9C1A91FA59BC615AAF4 /* Pods-GreenBridgeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenBridgeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GreenBridgeTests/Pods-GreenBridgeTests.release.xcconfig"; sourceTree = "<group>"; };
+		23FF5D616481450931B309FF /* Pods-GreenBridge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenBridge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GreenBridge/Pods-GreenBridge.debug.xcconfig"; sourceTree = "<group>"; };
+		4A22C64FC322E68E81F05FD5 /* Pods_GreenBridgeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreenBridgeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D1F13601DF318BA00E908BE /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		6D3912EB1DF29392005EA317 /* GreenBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D3912EE1DF29392005EA317 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6D3912F01DF29392005EA317 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6D3912F31DF29392005EA317 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6D3912F51DF29392005EA317 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D3912F81DF29392005EA317 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +75,30 @@
 		6D39130A1DF29393005EA317 /* GreenBridgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenBridgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D39130E1DF29393005EA317 /* GreenBridgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenBridgeUITests.swift; sourceTree = "<group>"; };
 		6D3913101DF29393005EA317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D3E002B1DF2E0B200B2A394 /* AppDelegate+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Helper.swift"; sourceTree = "<group>"; };
+		6D3E00341DF2E3CB00B2A394 /* CustomProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomProgressView.swift; sourceTree = "<group>"; };
+		6D3E00361DF2E65E00B2A394 /* CustomLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLoadingView.swift; sourceTree = "<group>"; };
+		6D3E00381DF2E68200B2A394 /* CoreExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreExtension.swift; sourceTree = "<group>"; };
+		6D3E003A1DF2E6D100B2A394 /* CustomNoDataFoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNoDataFoundView.swift; sourceTree = "<group>"; };
+		6D3E003C1DF2E85600B2A394 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		6D3E003E1DF2EABA00B2A394 /* CustomNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
+		6D3E00401DF2EAD100B2A394 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
+		6D3E00421DF2EAEF00B2A394 /* UIVerticallyCenteredTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIVerticallyCenteredTextView.swift; sourceTree = "<group>"; };
+		6D3E00441DF2EB0800B2A394 /* CheckBoxButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBoxButton.swift; sourceTree = "<group>"; };
+		6D3E00461DF2EB2400B2A394 /* StickyHeaderCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickyHeaderCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		6D3E00481DF2EB3A00B2A394 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		6D3E004A1DF2EB4B00B2A394 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		6D3E004E1DF2EF6200B2A394 /* TopSlideInToastMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopSlideInToastMessage.swift; sourceTree = "<group>"; };
+		6D3E00501DF3031B00B2A394 /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		6D3E00521DF3033800B2A394 /* ApiService+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ApiService+Helper.swift"; sourceTree = "<group>"; };
+		6D3E00541DF303F500B2A394 /* CoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreViewController.swift; sourceTree = "<group>"; };
+		6DDE3F631DF3D31800BCAA84 /* LoginViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewCell.swift; sourceTree = "<group>"; };
+		6DDE3F661DF3D51C00BCAA84 /* NoBorderTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoBorderTextField.swift; sourceTree = "<group>"; };
+		6DF999B51DF3A5F400116134 /* AppDelegate+AssetsNames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+AssetsNames.swift"; sourceTree = "<group>"; };
+		8065B6CA89B002CAA7E2CEBA /* Pods_GreenBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreenBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36821B48D95F27AD3A518C5 /* Pods-GreenBridgeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenBridgeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GreenBridgeTests/Pods-GreenBridgeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C278307C968B5AA01DC336CA /* Pods-GreenBridgeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenBridgeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GreenBridgeUITests/Pods-GreenBridgeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3AA7E9D7D9AB53E3B41BA9A /* Pods-GreenBridgeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenBridgeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GreenBridgeUITests/Pods-GreenBridgeUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A36099BF3189B4B0DB4E2216 /* Pods_GreenBridge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB4A03462F99E55B6DB02337 /* Pods_GreenBridgeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +122,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B44E7AA716ACE59D6E565043 /* Pods_GreenBridgeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D1F135F1DF318A800E908BE /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6DDE3F621DF3D30B00BCAA84 /* Views */,
+				6D1F13601DF318BA00E908BE /* LoginViewController.swift */,
+			);
+			name = LoginViewController;
+			sourceTree = "<group>";
+		};
 		6D3912E21DF29392005EA317 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +145,8 @@
 				6D3913021DF29393005EA317 /* GreenBridgeTests */,
 				6D39130D1DF29393005EA317 /* GreenBridgeUITests */,
 				6D3912EC1DF29392005EA317 /* Products */,
+				A09400254D38CDFF3734CF9E /* Pods */,
+				888E04D5935A257BF09B8BB5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +163,13 @@
 		6D3912ED1DF29392005EA317 /* GreenBridge */ = {
 			isa = PBXGroup;
 			children = (
-				6D3912EE1DF29392005EA317 /* AppDelegate.swift */,
-				6D3912F01DF29392005EA317 /* ViewController.swift */,
-				6D3912F21DF29392005EA317 /* Main.storyboard */,
+				6D3E00231DF2E03A00B2A394 /* AppDelegate */,
+				6D3E00241DF2E04900B2A394 /* ApiService+Helper */,
+				6D3E00251DF2E05D00B2A394 /* CoreHelpers */,
+				6D3E00261DF2E06A00B2A394 /* CoreModels */,
+				6D3E00271DF2E07500B2A394 /* ViewControllers */,
+				6D3E00281DF2E07E00B2A394 /* StoryBoard */,
 				6D3912F51DF29392005EA317 /* Assets.xcassets */,
-				6D3912F71DF29392005EA317 /* LaunchScreen.storyboard */,
 				6D3912FA1DF29392005EA317 /* Info.plist */,
 			);
 			path = GreenBridge;
@@ -125,6 +193,166 @@
 			path = GreenBridgeUITests;
 			sourceTree = "<group>";
 		};
+		6D3E00231DF2E03A00B2A394 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6D3912EE1DF29392005EA317 /* AppDelegate.swift */,
+				6D3E002B1DF2E0B200B2A394 /* AppDelegate+Helper.swift */,
+				6DF999B51DF3A5F400116134 /* AppDelegate+AssetsNames.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		6D3E00241DF2E04900B2A394 /* ApiService+Helper */ = {
+			isa = PBXGroup;
+			children = (
+				6D3E00501DF3031B00B2A394 /* ApiService.swift */,
+				6D3E00521DF3033800B2A394 /* ApiService+Helper.swift */,
+			);
+			name = "ApiService+Helper";
+			sourceTree = "<group>";
+		};
+		6D3E00251DF2E05D00B2A394 /* CoreHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				6DDE3F651DF3D50500BCAA84 /* CustomTextFied */,
+				6D3E002D1DF2E2EE00B2A394 /* TableView */,
+				6D3E002E1DF2E2FC00B2A394 /* CollectonView */,
+				6D3E002F1DF2E30800B2A394 /* ToastMessage */,
+				6D3E00301DF2E32400B2A394 /* CustomButtons */,
+				6D3E00311DF2E34800B2A394 /* CustomTextViews */,
+				6D3E00321DF2E35A00B2A394 /* CustomNavigationContorller */,
+				6D3E00331DF2E37000B2A394 /* CustomViews */,
+				6D3E00381DF2E68200B2A394 /* CoreExtension.swift */,
+				6D3E003C1DF2E85600B2A394 /* Reachability.swift */,
+			);
+			name = CoreHelpers;
+			sourceTree = "<group>";
+		};
+		6D3E00261DF2E06A00B2A394 /* CoreModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CoreModels;
+			sourceTree = "<group>";
+		};
+		6D3E00271DF2E07500B2A394 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6D3E00541DF303F500B2A394 /* CoreViewController.swift */,
+				6D1F135F1DF318A800E908BE /* LoginViewController */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6D3E00281DF2E07E00B2A394 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				6D3912F21DF29392005EA317 /* Main.storyboard */,
+				6D3912F71DF29392005EA317 /* LaunchScreen.storyboard */,
+			);
+			name = StoryBoard;
+			sourceTree = "<group>";
+		};
+		6D3E002D1DF2E2EE00B2A394 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				6D3E004A1DF2EB4B00B2A394 /* BaseTableViewCell.swift */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		6D3E002E1DF2E2FC00B2A394 /* CollectonView */ = {
+			isa = PBXGroup;
+			children = (
+				6D3E00461DF2EB2400B2A394 /* StickyHeaderCollectionViewFlowLayout.swift */,
+				6D3E00481DF2EB3A00B2A394 /* BaseCollectionViewCell.swift */,
+			);
+			name = CollectonView;
+			sourceTree = "<group>";
+		};
+		6D3E002F1DF2E30800B2A394 /* ToastMessage */ = {
+			isa = PBXGroup;
+			children = (
+				6D3E004E1DF2EF6200B2A394 /* TopSlideInToastMessage.swift */,
+			);
+			name = ToastMessage;
+			sourceTree = "<group>";
+		};
+		6D3E00301DF2E32400B2A394 /* CustomButtons */ = {
+			isa = PBXGroup;
+			children = (
+				6D3E00441DF2EB0800B2A394 /* CheckBoxButton.swift */,
+			);
+			name = CustomButtons;
+			sourceTree = "<group>";
+		};
+		6D3E00311DF2E34800B2A394 /* CustomTextViews */ = {
+			isa = PBXGroup;
+			children = (
+				6D3E00421DF2EAEF00B2A394 /* UIVerticallyCenteredTextView.swift */,
+			);
+			name = CustomTextViews;
+			sourceTree = "<group>";
+		};
+		6D3E00321DF2E35A00B2A394 /* CustomNavigationContorller */ = {
+			isa = PBXGroup;
+			children = (
+				6D3E003E1DF2EABA00B2A394 /* CustomNavigationController.swift */,
+				6D3E00401DF2EAD100B2A394 /* CustomNavigationBar.swift */,
+			);
+			name = CustomNavigationContorller;
+			sourceTree = "<group>";
+		};
+		6D3E00331DF2E37000B2A394 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				6D3E00341DF2E3CB00B2A394 /* CustomProgressView.swift */,
+				6D3E00361DF2E65E00B2A394 /* CustomLoadingView.swift */,
+				6D3E003A1DF2E6D100B2A394 /* CustomNoDataFoundView.swift */,
+			);
+			name = CustomViews;
+			sourceTree = "<group>";
+		};
+		6DDE3F621DF3D30B00BCAA84 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6DDE3F631DF3D31800BCAA84 /* LoginViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		6DDE3F651DF3D50500BCAA84 /* CustomTextFied */ = {
+			isa = PBXGroup;
+			children = (
+				6DDE3F661DF3D51C00BCAA84 /* NoBorderTextField.swift */,
+			);
+			name = CustomTextFied;
+			sourceTree = "<group>";
+		};
+		888E04D5935A257BF09B8BB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8065B6CA89B002CAA7E2CEBA /* Pods_GreenBridge.framework */,
+				4A22C64FC322E68E81F05FD5 /* Pods_GreenBridgeTests.framework */,
+				09F9BE554461E5DCAE6EA8B4 /* Pods_GreenBridgeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A09400254D38CDFF3734CF9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23FF5D616481450931B309FF /* Pods-GreenBridge.debug.xcconfig */,
+				16B874350DE2D9A17A95F55A /* Pods-GreenBridge.release.xcconfig */,
+				B36821B48D95F27AD3A518C5 /* Pods-GreenBridgeTests.debug.xcconfig */,
+				2334B9C1A91FA59BC615AAF4 /* Pods-GreenBridgeTests.release.xcconfig */,
+				C278307C968B5AA01DC336CA /* Pods-GreenBridgeUITests.debug.xcconfig */,
+				E3AA7E9D7D9AB53E3B41BA9A /* Pods-GreenBridgeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +360,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D3913131DF29393005EA317 /* Build configuration list for PBXNativeTarget "GreenBridge" */;
 			buildPhases = (
+				9895A9E17E1EA091EA974BB5 /* [CP] Check Pods Manifest.lock */,
 				6D3912E71DF29392005EA317 /* Sources */,
 				6D3912E81DF29392005EA317 /* Frameworks */,
 				6D3912E91DF29392005EA317 /* Resources */,
+				1C153C9D8E4135B8175D29A9 /* [CP] Embed Pods Frameworks */,
+				90D6204B7DB6BA23D9B351D0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +380,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D3913161DF29393005EA317 /* Build configuration list for PBXNativeTarget "GreenBridgeTests" */;
 			buildPhases = (
+				C8A631DD18C196ED432D0F92 /* [CP] Check Pods Manifest.lock */,
 				6D3912FB1DF29393005EA317 /* Sources */,
 				6D3912FC1DF29393005EA317 /* Frameworks */,
 				6D3912FD1DF29393005EA317 /* Resources */,
+				EF4938E6FB39D99F7E89E24F /* [CP] Embed Pods Frameworks */,
+				3A15BBF76AA7E97E90989505 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +401,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D3913191DF29393005EA317 /* Build configuration list for PBXNativeTarget "GreenBridgeUITests" */;
 			buildPhases = (
+				E7A6B95C0DBF2EC6A75D9AEE /* [CP] Check Pods Manifest.lock */,
 				6D3913061DF29393005EA317 /* Sources */,
 				6D3913071DF29393005EA317 /* Frameworks */,
 				6D3913081DF29393005EA317 /* Resources */,
+				4931C3D39A3D3B0B8B278888 /* [CP] Embed Pods Frameworks */,
+				782E016558908D9225053AF0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +491,171 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C153C9D8E4135B8175D29A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GreenBridge/Pods-GreenBridge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A15BBF76AA7E97E90989505 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GreenBridgeTests/Pods-GreenBridgeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4931C3D39A3D3B0B8B278888 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GreenBridgeUITests/Pods-GreenBridgeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		782E016558908D9225053AF0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GreenBridgeUITests/Pods-GreenBridgeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90D6204B7DB6BA23D9B351D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GreenBridge/Pods-GreenBridge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9895A9E17E1EA091EA974BB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C8A631DD18C196ED432D0F92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E7A6B95C0DBF2EC6A75D9AEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EF4938E6FB39D99F7E89E24F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GreenBridgeTests/Pods-GreenBridgeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6D3912E71DF29392005EA317 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D3912F11DF29392005EA317 /* ViewController.swift in Sources */,
+				6D3E00431DF2EAEF00B2A394 /* UIVerticallyCenteredTextView.swift in Sources */,
+				6D3E00511DF3031B00B2A394 /* ApiService.swift in Sources */,
+				6D3E004F1DF2EF6200B2A394 /* TopSlideInToastMessage.swift in Sources */,
+				6DDE3F641DF3D31800BCAA84 /* LoginViewCell.swift in Sources */,
+				6D3E003D1DF2E85600B2A394 /* Reachability.swift in Sources */,
+				6D3E002C1DF2E0B200B2A394 /* AppDelegate+Helper.swift in Sources */,
 				6D3912EF1DF29392005EA317 /* AppDelegate.swift in Sources */,
+				6D3E004B1DF2EB4B00B2A394 /* BaseTableViewCell.swift in Sources */,
+				6D1F13611DF318BA00E908BE /* LoginViewController.swift in Sources */,
+				6D3E00551DF303F500B2A394 /* CoreViewController.swift in Sources */,
+				6D3E00411DF2EAD100B2A394 /* CustomNavigationBar.swift in Sources */,
+				6D3E00371DF2E65E00B2A394 /* CustomLoadingView.swift in Sources */,
+				6D3E00471DF2EB2400B2A394 /* StickyHeaderCollectionViewFlowLayout.swift in Sources */,
+				6D3E003F1DF2EABA00B2A394 /* CustomNavigationController.swift in Sources */,
+				6D3E00451DF2EB0800B2A394 /* CheckBoxButton.swift in Sources */,
+				6DF999B61DF3A5F400116134 /* AppDelegate+AssetsNames.swift in Sources */,
+				6DDE3F671DF3D51C00BCAA84 /* NoBorderTextField.swift in Sources */,
+				6D3E003B1DF2E6D100B2A394 /* CustomNoDataFoundView.swift in Sources */,
+				6D3E00531DF3033800B2A394 /* ApiService+Helper.swift in Sources */,
+				6D3E00351DF2E3CB00B2A394 /* CustomProgressView.swift in Sources */,
+				6D3E00491DF2EB3A00B2A394 /* BaseCollectionViewCell.swift in Sources */,
+				6D3E00391DF2E68200B2A394 /* CoreExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +728,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -383,6 +779,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -410,7 +807,9 @@
 		};
 		6D3913141DF29393005EA317 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23FF5D616481450931B309FF /* Pods-GreenBridge.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GreenBridge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -422,7 +821,9 @@
 		};
 		6D3913151DF29393005EA317 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16B874350DE2D9A17A95F55A /* Pods-GreenBridge.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GreenBridge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -434,6 +835,7 @@
 		};
 		6D3913171DF29393005EA317 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B36821B48D95F27AD3A518C5 /* Pods-GreenBridgeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +850,7 @@
 		};
 		6D3913181DF29393005EA317 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2334B9C1A91FA59BC615AAF4 /* Pods-GreenBridgeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +865,7 @@
 		};
 		6D39131A1DF29393005EA317 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C278307C968B5AA01DC336CA /* Pods-GreenBridgeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = GreenBridgeUITests/Info.plist;
@@ -475,6 +879,7 @@
 		};
 		6D39131B1DF29393005EA317 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3AA7E9D7D9AB53E3B41BA9A /* Pods-GreenBridgeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = GreenBridgeUITests/Info.plist;
@@ -505,6 +910,7 @@
 				6D3913151DF29393005EA317 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D3913161DF29393005EA317 /* Build configuration list for PBXNativeTarget "GreenBridgeTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +919,7 @@
 				6D3913181DF29393005EA317 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D3913191DF29393005EA317 /* Build configuration list for PBXNativeTarget "GreenBridgeUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +928,7 @@
 				6D39131B1DF29393005EA317 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

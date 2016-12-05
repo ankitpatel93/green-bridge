@@ -1,0 +1,1104 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08F70BDD45F0B73F1AD27507808FEC3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792165F2CA033667D6F57205316D40A1 /* Foundation.framework */; };
+		0B9FAA59E53F8381BAD75316E70145BE /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A24A01C6C41482D1E69FF0A7D325B34 /* IQUIView+IQKeyboardToolbar.swift */; };
+		123D28717B28730D7DDD56E56B646294 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52D7AAD937E8A27BF5513A4BD9CB034 /* IQUITextFieldView+Additions.swift */; };
+		1C8F85A1033B5AE0FE8126CE2E937E9F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9AD02E9CEE9B012A246B3874CF4587 /* CoreGraphics.framework */; };
+		22BF5066806248FBD63CD64193B95AB6 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445BC73BD84B379445A270E1B09B88F1 /* IQUIScrollView+Additions.swift */; };
+		2BC48BA9EC7B6F6F334FB9CF2758D461 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7C00E49FC34CBBC6884D1D73EEE9E2 /* IQUIView+Hierarchy.swift */; };
+		2EBD7B6D6EEBAD72870AECB44D1E3AE2 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0FB38C3782CE14661A1464320A2953 /* IQBarButtonItem.swift */; };
+		32D47B0AE0C145C1E9662CC2468FED0E /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE087550D38D7F0CB9F6FC03C8E4CA0 /* IQTitleBarButtonItem.swift */; };
+		4D69FE16B67654318E67324643433569 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792165F2CA033667D6F57205316D40A1 /* Foundation.framework */; };
+		5B981698211292E1F92A21CC9F182675 /* IQKeyboardManagerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E265155F8D25E1A2963F58ED9933D8CD /* IQKeyboardManagerSwift-dummy.m */; };
+		5C1B7FB4706A09F7E95F26B02797BE19 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3B331B052A42477161E6A0C57BC438 /* IQKeyboardReturnKeyHandler.swift */; };
+		5D683A3BCF83E8447C2F807169229163 /* Pods-GreenBridgeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CD8564B42305A64C0FBF7C083B890A /* Pods-GreenBridgeTests-dummy.m */; };
+		6CF3B03E17C179FDC52E8C153BBBE893 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6180592CC4660C41D42406070BCB5D2 /* SwiftyJSON-dummy.m */; };
+		862914ECEA13202B054E1D05492833F3 /* Pods-GreenBridge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B96EA2C80B5A1352BFEB6830237EDA1 /* Pods-GreenBridge-dummy.m */; };
+		8834378BFE954A8077ADCECA0EC50329 /* Pods-GreenBridgeUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92DE43BA4FD806F17D89EAA7F67F494D /* Pods-GreenBridgeUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89959176E9E2C981CE0A235B706E8AA7 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9305DB1ED9DEAFC96A0A1592B7B2B42A /* IQKeyboardManagerConstants.swift */; };
+		8A9F29BBD7EE77DE44B491698B46259D /* Pods-GreenBridgeUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1AEAB72E3CA90F5E46EF0A8A7C26A7 /* Pods-GreenBridgeUITests-dummy.m */; };
+		9158D17068C368C2E6A050241541E7DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792165F2CA033667D6F57205316D40A1 /* Foundation.framework */; };
+		A50218EC76648886FE767F1DCD9626DE /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5006C5934BFD9B7BA3F8C5972FC17B89 /* IQPreviousNextView.swift */; };
+		A88CFE3F9DCE30C3AA3A2F6086C6EE84 /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9401109F4A04A835A6F5ECB5FB02F46 /* IQKeyboardManager.swift */; };
+		A9F1A9CF01AF7F7A691A0A8C9E2D3A71 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D484A9187BDAEFCDD56F73A063ADD6 /* IQToolbar.swift */; };
+		B0E679FF770EE8E7073391580C373D92 /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E65887916553973A8A126027BF770B3 /* IQTextView.swift */; };
+		B442B2842874EADF0FEAAC3F3FCC0A10 /* Pods-GreenBridge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8EDC1A84D565EA99AB73AC9F1C4F8CA /* Pods-GreenBridge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B49E26DF5871F564A7C9528173CE2D5F /* IQKeyboardManagerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC0356CF0EF7E05ECBECD243F33FF3C1 /* IQKeyboardManagerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9557585483AD395045D19F792D8BDE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695DA86B20FEA7BF7EA40FA7DB65A479 /* UIKit.framework */; };
+		BCD6B3BA5E1132F0FD49AC39F2BF4D62 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27A901F02264F79F59C29CA0F67748F /* IQKeyboardManagerConstantsInternal.swift */; };
+		BDE33EEE6475FA0151692E986D98978E /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 332C0A446B811905044C4AC0989BFD5E /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C759ACB2C97ED8A9EC91C2DF79C95F1D /* IQUIWindow+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B099848545EC6E733653419E906C825A /* IQUIWindow+Hierarchy.swift */; };
+		C92BC0B8E4CBCFD16762838B30654F29 /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80B6DF8D91CCB14228960C306F054FE /* IQUIViewController+Additions.swift */; };
+		D65B8481AFF5531FC2E4382CBA63C057 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5C7EB80EFC053F1F71E3C568B0505043 /* IQKeyboardManager.bundle */; };
+		E2F2458C36AFAF0A7CF2A109EFDD165F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792165F2CA033667D6F57205316D40A1 /* Foundation.framework */; };
+		E2FAFE3DE2FFBC49711D6B635309E71B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792165F2CA033667D6F57205316D40A1 /* Foundation.framework */; };
+		E9AD3D7B3B4B82CD4D9B817109239F55 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A56DF1908BE30D9E662BECF4ADF3986 /* IQNSArray+Sort.swift */; };
+		F922479C77D9103C9BEE93B609DAB82D /* Pods-GreenBridgeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CF0FDD6487336B28C5CE55ECAFF5F65 /* Pods-GreenBridgeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB613C6EF3F96860CD2DEDF582AC828D /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB7017202FBBAE2812127A4A4BFCD4E /* SwiftyJSON.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35F75AE01CDDD9060628A6213D755F06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DC059E04CBA98AEDDB5C34E02D551E9;
+			remoteInfo = IQKeyboardManagerSwift;
+		};
+		CEC116EF6CA136E1F1E44851B228A2CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAB937E1ECA9CE3E195F214598348404;
+			remoteInfo = SwiftyJSON;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00266496AA7C7DA97106C7D7E5827A74 /* Pods-GreenBridge-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GreenBridge-resources.sh"; sourceTree = "<group>"; };
+		03CA5348879B73058F351E3E1563E15E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08C5B24768724BF3921DCD440F57F975 /* Pods-GreenBridgeUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GreenBridgeUITests-resources.sh"; sourceTree = "<group>"; };
+		0A3B331B052A42477161E6A0C57BC438 /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardReturnKeyHandler.swift; path = IQKeyboardManagerSwift/IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		0C7C00E49FC34CBBC6884D1D73EEE9E2 /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+Hierarchy.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		0CF0FDD6487336B28C5CE55ECAFF5F65 /* Pods-GreenBridgeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GreenBridgeTests-umbrella.h"; sourceTree = "<group>"; };
+		1375D004094DE06219DF879F55BD1872 /* Pods-GreenBridgeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GreenBridgeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		13E17870D997494928E7780EC066D1E1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		146BA8B8F927DD932EFCC1DC67879222 /* Pods-GreenBridgeUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GreenBridgeUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		18BFB7FEF0170274F4B995D205865156 /* Pods-GreenBridge-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GreenBridge-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1A24A01C6C41482D1E69FF0A7D325B34 /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+IQKeyboardToolbar.swift"; path = "IQKeyboardManagerSwift/IQToolbar/IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		1BE087550D38D7F0CB9F6FC03C8E4CA0 /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTitleBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		226717CD1248C6A321AD6F10443C01D3 /* Pods-GreenBridge-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GreenBridge-acknowledgements.plist"; sourceTree = "<group>"; };
+		332C0A446B811905044C4AC0989BFD5E /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		392EEE362C831DADC58878A09099355C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B96EA2C80B5A1352BFEB6830237EDA1 /* Pods-GreenBridge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GreenBridge-dummy.m"; sourceTree = "<group>"; };
+		445BC73BD84B379445A270E1B09B88F1 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIScrollView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		487990D0DC33AC9026F6E07132C9EFF1 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		4A56DF1908BE30D9E662BECF4ADF3986 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQNSArray+Sort.swift"; path = "IQKeyboardManagerSwift/Categories/IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		4D9AD02E9CEE9B012A246B3874CF4587 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		4FC7856D8537E0211F8C66409D147B14 /* Pods-GreenBridge-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GreenBridge-frameworks.sh"; sourceTree = "<group>"; };
+		5006C5934BFD9B7BA3F8C5972FC17B89 /* IQPreviousNextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPreviousNextView.swift; path = IQKeyboardManagerSwift/IQToolbar/IQPreviousNextView.swift; sourceTree = "<group>"; };
+		505FD7AF10D1C3DEDD9983023AFF543D /* Pods-GreenBridgeTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GreenBridgeTests-resources.sh"; sourceTree = "<group>"; };
+		5C1AEAB72E3CA90F5E46EF0A8A7C26A7 /* Pods-GreenBridgeUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GreenBridgeUITests-dummy.m"; sourceTree = "<group>"; };
+		5C7EB80EFC053F1F71E3C568B0505043 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IQKeyboardManager.bundle; path = IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		5EBDE17FEA7A92A841D5658CF7830860 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		600099E006603FB9A2422EF0AF744EFC /* Pods_GreenBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GreenBridge.framework; path = "Pods-GreenBridge.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60CD8564B42305A64C0FBF7C083B890A /* Pods-GreenBridgeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GreenBridgeTests-dummy.m"; sourceTree = "<group>"; };
+		6443B3C7571FF742508E52C84059C4EB /* Pods-GreenBridge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GreenBridge.modulemap"; sourceTree = "<group>"; };
+		695DA86B20FEA7BF7EA40FA7DB65A479 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		6E65887916553973A8A126027BF770B3 /* IQTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTextView.swift; path = IQKeyboardManagerSwift/IQTextView/IQTextView.swift; sourceTree = "<group>"; };
+		70023A59444CC4DF2E67C1BD0CA97707 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardManagerSwift.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		792165F2CA033667D6F57205316D40A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7923BA1F580461DECFD289A7C8D72961 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DE94808BF19C46E6FEFA50BC67A5B99 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F0FB38C3782CE14661A1464320A2953 /* IQBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQBarButtonItem.swift; sourceTree = "<group>"; };
+		82AFB85902A50DD81528C290C8DAA771 /* Pods_GreenBridgeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GreenBridgeUITests.framework; path = "Pods-GreenBridgeUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D08383B112609BA8B41150DA0997AF /* Pods-GreenBridgeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GreenBridgeTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8595944FD639687BF350480BCAEFD9E3 /* IQKeyboardManagerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = IQKeyboardManagerSwift.modulemap; sourceTree = "<group>"; };
+		8992E16B4F0A154F2984AFD16729F0EE /* Pods-GreenBridgeUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GreenBridgeUITests.modulemap"; sourceTree = "<group>"; };
+		8E61C402DF35D7ED9B0DAF8181DD4F13 /* Pods-GreenBridgeTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GreenBridgeTests-frameworks.sh"; sourceTree = "<group>"; };
+		909B5F6435E4772CA0C7739BD39D2D1D /* IQKeyboardManagerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManagerSwift.xcconfig; sourceTree = "<group>"; };
+		92DE43BA4FD806F17D89EAA7F67F494D /* Pods-GreenBridgeUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GreenBridgeUITests-umbrella.h"; sourceTree = "<group>"; };
+		9305DB1ED9DEAFC96A0A1592B7B2B42A /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstants.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94B7072446ED990CF338CE9CBCA927A9 /* Pods-GreenBridgeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GreenBridgeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		97F6D505CC571CD98FDC6CEE034C9FCE /* Pods-GreenBridge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GreenBridge.debug.xcconfig"; sourceTree = "<group>"; };
+		98A04AF12CEDB1D70E48827067902C97 /* Pods-GreenBridgeUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GreenBridgeUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		991F9930AB2712A80AA7B627A942F057 /* Pods-GreenBridgeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GreenBridgeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A219A7F3BD03C622605363CD02AC04EF /* Pods-GreenBridgeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GreenBridgeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A27A901F02264F79F59C29CA0F67748F /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstantsInternal.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		A388E871B384F251AB5CF84C53C29CEB /* Pods_GreenBridgeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GreenBridgeTests.framework; path = "Pods-GreenBridgeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B099848545EC6E733653419E906C825A /* IQUIWindow+Hierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIWindow+Hierarchy.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIWindow+Hierarchy.swift"; sourceTree = "<group>"; };
+		B09BA74D089288B174E69157A1E29636 /* IQKeyboardManagerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-prefix.pch"; sourceTree = "<group>"; };
+		B6083F00A1DFA2B4A51D8A18ABFCD48B /* Pods-GreenBridge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GreenBridge.release.xcconfig"; sourceTree = "<group>"; };
+		B9401109F4A04A835A6F5ECB5FB02F46 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManager.swift; path = IQKeyboardManagerSwift/IQKeyboardManager.swift; sourceTree = "<group>"; };
+		C04D194BA73E3ACA569E24CA96688B56 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		C52D7AAD937E8A27BF5513A4BD9CB034 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUITextFieldView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		C6180592CC4660C41D42406070BCB5D2 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		E265155F8D25E1A2963F58ED9933D8CD /* IQKeyboardManagerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManagerSwift-dummy.m"; sourceTree = "<group>"; };
+		E80B6DF8D91CCB14228960C306F054FE /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIViewController+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		E8EDC1A84D565EA99AB73AC9F1C4F8CA /* Pods-GreenBridge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GreenBridge-umbrella.h"; sourceTree = "<group>"; };
+		EE1BF9ADA420117564BA3977693D2E2B /* Pods-GreenBridgeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GreenBridgeTests.modulemap"; sourceTree = "<group>"; };
+		F3D484A9187BDAEFCDD56F73A063ADD6 /* IQToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQToolbar.swift; path = IQKeyboardManagerSwift/IQToolbar/IQToolbar.swift; sourceTree = "<group>"; };
+		F4508BF32799798BD1739E8F484BC02F /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A11B35F3ACCC10D2110F6FBAC40F48 /* Pods-GreenBridgeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GreenBridgeTests.release.xcconfig"; sourceTree = "<group>"; };
+		F6D0A257B1FAC6F69FA570F3C4323921 /* Pods-GreenBridgeUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GreenBridgeUITests-frameworks.sh"; sourceTree = "<group>"; };
+		FC0356CF0EF7E05ECBECD243F33FF3C1 /* IQKeyboardManagerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-umbrella.h"; sourceTree = "<group>"; };
+		FEB7017202FBBAE2812127A4A4BFCD4E /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		098162586656CDD636C251549F67B0E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D69FE16B67654318E67324643433569 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10062CC15DAEABE95D65862067E8682B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C8F85A1033B5AE0FE8126CE2E937E9F /* CoreGraphics.framework in Frameworks */,
+				08F70BDD45F0B73F1AD27507808FEC3B /* Foundation.framework in Frameworks */,
+				B9557585483AD395045D19F792D8BDE7 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BD6A54146E357A9EECC9B804A92AA15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9158D17068C368C2E6A050241541E7DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B92296E1A543516BCCACE784B3BA956 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2FAFE3DE2FFBC49711D6B635309E71B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD86C52EA4B9C3A14EC907AB8DDF6B5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F2458C36AFAF0A7CF2A109EFDD165F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D185E38271E1279D6AC3E7A00CAF9BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		274603F54C1DE7071F7F60C16CF99CC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70023A59444CC4DF2E67C1BD0CA97707 /* IQKeyboardManagerSwift.framework */,
+				600099E006603FB9A2422EF0AF744EFC /* Pods_GreenBridge.framework */,
+				A388E871B384F251AB5CF84C53C29CEB /* Pods_GreenBridgeTests.framework */,
+				82AFB85902A50DD81528C290C8DAA771 /* Pods_GreenBridgeUITests.framework */,
+				F4508BF32799798BD1739E8F484BC02F /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D185E38271E1279D6AC3E7A00CAF9BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4D9AD02E9CEE9B012A246B3874CF4587 /* CoreGraphics.framework */,
+				792165F2CA033667D6F57205316D40A1 /* Foundation.framework */,
+				695DA86B20FEA7BF7EA40FA7DB65A479 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		500018EFBEB60CB0951A86549B06DF99 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				392EEE362C831DADC58878A09099355C /* Info.plist */,
+				8595944FD639687BF350480BCAEFD9E3 /* IQKeyboardManagerSwift.modulemap */,
+				909B5F6435E4772CA0C7739BD39D2D1D /* IQKeyboardManagerSwift.xcconfig */,
+				E265155F8D25E1A2963F58ED9933D8CD /* IQKeyboardManagerSwift-dummy.m */,
+				B09BA74D089288B174E69157A1E29636 /* IQKeyboardManagerSwift-prefix.pch */,
+				FC0356CF0EF7E05ECBECD243F33FF3C1 /* IQKeyboardManagerSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IQKeyboardManagerSwift";
+			sourceTree = "<group>";
+		};
+		51917033211816D76E9C0F70E9A73C9B /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				7F0FB38C3782CE14661A1464320A2953 /* IQBarButtonItem.swift */,
+				B9401109F4A04A835A6F5ECB5FB02F46 /* IQKeyboardManager.swift */,
+				9305DB1ED9DEAFC96A0A1592B7B2B42A /* IQKeyboardManagerConstants.swift */,
+				A27A901F02264F79F59C29CA0F67748F /* IQKeyboardManagerConstantsInternal.swift */,
+				0A3B331B052A42477161E6A0C57BC438 /* IQKeyboardReturnKeyHandler.swift */,
+				4A56DF1908BE30D9E662BECF4ADF3986 /* IQNSArray+Sort.swift */,
+				5006C5934BFD9B7BA3F8C5972FC17B89 /* IQPreviousNextView.swift */,
+				6E65887916553973A8A126027BF770B3 /* IQTextView.swift */,
+				1BE087550D38D7F0CB9F6FC03C8E4CA0 /* IQTitleBarButtonItem.swift */,
+				F3D484A9187BDAEFCDD56F73A063ADD6 /* IQToolbar.swift */,
+				445BC73BD84B379445A270E1B09B88F1 /* IQUIScrollView+Additions.swift */,
+				C52D7AAD937E8A27BF5513A4BD9CB034 /* IQUITextFieldView+Additions.swift */,
+				0C7C00E49FC34CBBC6884D1D73EEE9E2 /* IQUIView+Hierarchy.swift */,
+				1A24A01C6C41482D1E69FF0A7D325B34 /* IQUIView+IQKeyboardToolbar.swift */,
+				E80B6DF8D91CCB14228960C306F054FE /* IQUIViewController+Additions.swift */,
+				B099848545EC6E733653419E906C825A /* IQUIWindow+Hierarchy.swift */,
+				7F239D3A178C1F1FF071F8E9FD4ACD34 /* Resources */,
+				500018EFBEB60CB0951A86549B06DF99 /* Support Files */,
+			);
+			name = IQKeyboardManagerSwift;
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		6175AA1F9D430D8A49EF5812E44C2ADC /* Pods-GreenBridgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				03CA5348879B73058F351E3E1563E15E /* Info.plist */,
+				EE1BF9ADA420117564BA3977693D2E2B /* Pods-GreenBridgeTests.modulemap */,
+				A219A7F3BD03C622605363CD02AC04EF /* Pods-GreenBridgeTests-acknowledgements.markdown */,
+				82D08383B112609BA8B41150DA0997AF /* Pods-GreenBridgeTests-acknowledgements.plist */,
+				60CD8564B42305A64C0FBF7C083B890A /* Pods-GreenBridgeTests-dummy.m */,
+				8E61C402DF35D7ED9B0DAF8181DD4F13 /* Pods-GreenBridgeTests-frameworks.sh */,
+				505FD7AF10D1C3DEDD9983023AFF543D /* Pods-GreenBridgeTests-resources.sh */,
+				0CF0FDD6487336B28C5CE55ECAFF5F65 /* Pods-GreenBridgeTests-umbrella.h */,
+				991F9930AB2712A80AA7B627A942F057 /* Pods-GreenBridgeTests.debug.xcconfig */,
+				F5A11B35F3ACCC10D2110F6FBAC40F48 /* Pods-GreenBridgeTests.release.xcconfig */,
+			);
+			name = "Pods-GreenBridgeTests";
+			path = "Target Support Files/Pods-GreenBridgeTests";
+			sourceTree = "<group>";
+		};
+		620E5AAB8A9192749ACF418778248B62 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				891339BA4A988BBA4812D253B38BC9D2 /* Pods-GreenBridge */,
+				6175AA1F9D430D8A49EF5812E44C2ADC /* Pods-GreenBridgeTests */,
+				A1EC179030C6EEF6911307C63121E54D /* Pods-GreenBridgeUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				897115C1ABE07A7DCBC9881CEF59457F /* Pods */,
+				274603F54C1DE7071F7F60C16CF99CC9 /* Products */,
+				620E5AAB8A9192749ACF418778248B62 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F239D3A178C1F1FF071F8E9FD4ACD34 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5C7EB80EFC053F1F71E3C568B0505043 /* IQKeyboardManager.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		84CCE9849FC3BAFD3C1BD93110B16995 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				13E17870D997494928E7780EC066D1E1 /* Info.plist */,
+				487990D0DC33AC9026F6E07132C9EFF1 /* SwiftyJSON.modulemap */,
+				C04D194BA73E3ACA569E24CA96688B56 /* SwiftyJSON.xcconfig */,
+				C6180592CC4660C41D42406070BCB5D2 /* SwiftyJSON-dummy.m */,
+				5EBDE17FEA7A92A841D5658CF7830860 /* SwiftyJSON-prefix.pch */,
+				332C0A446B811905044C4AC0989BFD5E /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		891339BA4A988BBA4812D253B38BC9D2 /* Pods-GreenBridge */ = {
+			isa = PBXGroup;
+			children = (
+				7DE94808BF19C46E6FEFA50BC67A5B99 /* Info.plist */,
+				6443B3C7571FF742508E52C84059C4EB /* Pods-GreenBridge.modulemap */,
+				18BFB7FEF0170274F4B995D205865156 /* Pods-GreenBridge-acknowledgements.markdown */,
+				226717CD1248C6A321AD6F10443C01D3 /* Pods-GreenBridge-acknowledgements.plist */,
+				3B96EA2C80B5A1352BFEB6830237EDA1 /* Pods-GreenBridge-dummy.m */,
+				4FC7856D8537E0211F8C66409D147B14 /* Pods-GreenBridge-frameworks.sh */,
+				00266496AA7C7DA97106C7D7E5827A74 /* Pods-GreenBridge-resources.sh */,
+				E8EDC1A84D565EA99AB73AC9F1C4F8CA /* Pods-GreenBridge-umbrella.h */,
+				97F6D505CC571CD98FDC6CEE034C9FCE /* Pods-GreenBridge.debug.xcconfig */,
+				B6083F00A1DFA2B4A51D8A18ABFCD48B /* Pods-GreenBridge.release.xcconfig */,
+			);
+			name = "Pods-GreenBridge";
+			path = "Target Support Files/Pods-GreenBridge";
+			sourceTree = "<group>";
+		};
+		897115C1ABE07A7DCBC9881CEF59457F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51917033211816D76E9C0F70E9A73C9B /* IQKeyboardManagerSwift */,
+				BF5D7455CEDE8981E359DD3F7A10BE8A /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A1EC179030C6EEF6911307C63121E54D /* Pods-GreenBridgeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7923BA1F580461DECFD289A7C8D72961 /* Info.plist */,
+				8992E16B4F0A154F2984AFD16729F0EE /* Pods-GreenBridgeUITests.modulemap */,
+				146BA8B8F927DD932EFCC1DC67879222 /* Pods-GreenBridgeUITests-acknowledgements.markdown */,
+				98A04AF12CEDB1D70E48827067902C97 /* Pods-GreenBridgeUITests-acknowledgements.plist */,
+				5C1AEAB72E3CA90F5E46EF0A8A7C26A7 /* Pods-GreenBridgeUITests-dummy.m */,
+				F6D0A257B1FAC6F69FA570F3C4323921 /* Pods-GreenBridgeUITests-frameworks.sh */,
+				08C5B24768724BF3921DCD440F57F975 /* Pods-GreenBridgeUITests-resources.sh */,
+				92DE43BA4FD806F17D89EAA7F67F494D /* Pods-GreenBridgeUITests-umbrella.h */,
+				1375D004094DE06219DF879F55BD1872 /* Pods-GreenBridgeUITests.debug.xcconfig */,
+				94B7072446ED990CF338CE9CBCA927A9 /* Pods-GreenBridgeUITests.release.xcconfig */,
+			);
+			name = "Pods-GreenBridgeUITests";
+			path = "Target Support Files/Pods-GreenBridgeUITests";
+			sourceTree = "<group>";
+		};
+		BF5D7455CEDE8981E359DD3F7A10BE8A /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				FEB7017202FBBAE2812127A4A4BFCD4E /* SwiftyJSON.swift */,
+				84CCE9849FC3BAFD3C1BD93110B16995 /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3751AA9E0948F1CB0BA5B39BAAC8DC48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F922479C77D9103C9BEE93B609DAB82D /* Pods-GreenBridgeTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72B105A66247899810BC31D1D0044852 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8834378BFE954A8077ADCECA0EC50329 /* Pods-GreenBridgeUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A249BAD199DAE1089C29441483B95141 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B442B2842874EADF0FEAAC3F3FCC0A10 /* Pods-GreenBridge-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31A764E3A6132A2BC02BD1E3953E66F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE33EEE6475FA0151692E986D98978E /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0594BC12C332F68CBA28F99391465D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B49E26DF5871F564A7C9528173CE2D5F /* IQKeyboardManagerSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4DC059E04CBA98AEDDB5C34E02D551E9 /* IQKeyboardManagerSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75B8C8837854098D8D911F8A3335DDAC /* Build configuration list for PBXNativeTarget "IQKeyboardManagerSwift" */;
+			buildPhases = (
+				AB0925B8AA80E6202908F358FE239182 /* Sources */,
+				10062CC15DAEABE95D65862067E8682B /* Frameworks */,
+				8913AFCA6CAEB5D9BF81A3A49E9CE1BE /* Resources */,
+				E0594BC12C332F68CBA28F99391465D9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IQKeyboardManagerSwift;
+			productName = IQKeyboardManagerSwift;
+			productReference = 70023A59444CC4DF2E67C1BD0CA97707 /* IQKeyboardManagerSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7FE736DA35EB158E23FE06F1C64B5AFF /* Pods-GreenBridgeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A5C3BA2F68A37F2F8CAF7DFAF3212D9 /* Build configuration list for PBXNativeTarget "Pods-GreenBridgeUITests" */;
+			buildPhases = (
+				00C47CDDDE85EB6C9ADF22A0732DDBCD /* Sources */,
+				098162586656CDD636C251549F67B0E3 /* Frameworks */,
+				72B105A66247899810BC31D1D0044852 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GreenBridgeUITests";
+			productName = "Pods-GreenBridgeUITests";
+			productReference = 82AFB85902A50DD81528C290C8DAA771 /* Pods_GreenBridgeUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BE5AE618D7439EA167BD117B093E62B1 /* Pods-GreenBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6EBCFC029DE6E22638C868FCBB15285 /* Build configuration list for PBXNativeTarget "Pods-GreenBridge" */;
+			buildPhases = (
+				F49B7CCC656EB1DC7660DC81F18F6DB8 /* Sources */,
+				AD86C52EA4B9C3A14EC907AB8DDF6B5C /* Frameworks */,
+				A249BAD199DAE1089C29441483B95141 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50C97C01DB5896CA07175C9D2789244B /* PBXTargetDependency */,
+				72BC13936C7D9B7E3F45985B7107F14C /* PBXTargetDependency */,
+			);
+			name = "Pods-GreenBridge";
+			productName = "Pods-GreenBridge";
+			productReference = 600099E006603FB9A2422EF0AF744EFC /* Pods_GreenBridge.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CAB937E1ECA9CE3E195F214598348404 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A82C7C5136416D366EA0F2C268AD03E /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				674685BE15F4BB199BF5F3A074189CDB /* Sources */,
+				1BD6A54146E357A9EECC9B804A92AA15 /* Frameworks */,
+				C31A764E3A6132A2BC02BD1E3953E66F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = F4508BF32799798BD1739E8F484BC02F /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EC7815345B4677951C8F67E9373667AA /* Pods-GreenBridgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E931019D9411847741B9B3EF5C42FC29 /* Build configuration list for PBXNativeTarget "Pods-GreenBridgeTests" */;
+			buildPhases = (
+				1DB7E977434EA8FBF17819AAF748C770 /* Sources */,
+				8B92296E1A543516BCCACE784B3BA956 /* Frameworks */,
+				3751AA9E0948F1CB0BA5B39BAAC8DC48 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GreenBridgeTests";
+			productName = "Pods-GreenBridgeTests";
+			productReference = A388E871B384F251AB5CF84C53C29CEB /* Pods_GreenBridgeTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 274603F54C1DE7071F7F60C16CF99CC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DC059E04CBA98AEDDB5C34E02D551E9 /* IQKeyboardManagerSwift */,
+				BE5AE618D7439EA167BD117B093E62B1 /* Pods-GreenBridge */,
+				EC7815345B4677951C8F67E9373667AA /* Pods-GreenBridgeTests */,
+				7FE736DA35EB158E23FE06F1C64B5AFF /* Pods-GreenBridgeUITests */,
+				CAB937E1ECA9CE3E195F214598348404 /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8913AFCA6CAEB5D9BF81A3A49E9CE1BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65B8481AFF5531FC2E4382CBA63C057 /* IQKeyboardManager.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00C47CDDDE85EB6C9ADF22A0732DDBCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A9F29BBD7EE77DE44B491698B46259D /* Pods-GreenBridgeUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB7E977434EA8FBF17819AAF748C770 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D683A3BCF83E8447C2F807169229163 /* Pods-GreenBridgeTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		674685BE15F4BB199BF5F3A074189CDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CF3B03E17C179FDC52E8C153BBBE893 /* SwiftyJSON-dummy.m in Sources */,
+				FB613C6EF3F96860CD2DEDF582AC828D /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB0925B8AA80E6202908F358FE239182 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EBD7B6D6EEBAD72870AECB44D1E3AE2 /* IQBarButtonItem.swift in Sources */,
+				A88CFE3F9DCE30C3AA3A2F6086C6EE84 /* IQKeyboardManager.swift in Sources */,
+				89959176E9E2C981CE0A235B706E8AA7 /* IQKeyboardManagerConstants.swift in Sources */,
+				BCD6B3BA5E1132F0FD49AC39F2BF4D62 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				5B981698211292E1F92A21CC9F182675 /* IQKeyboardManagerSwift-dummy.m in Sources */,
+				5C1B7FB4706A09F7E95F26B02797BE19 /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				E9AD3D7B3B4B82CD4D9B817109239F55 /* IQNSArray+Sort.swift in Sources */,
+				A50218EC76648886FE767F1DCD9626DE /* IQPreviousNextView.swift in Sources */,
+				B0E679FF770EE8E7073391580C373D92 /* IQTextView.swift in Sources */,
+				32D47B0AE0C145C1E9662CC2468FED0E /* IQTitleBarButtonItem.swift in Sources */,
+				A9F1A9CF01AF7F7A691A0A8C9E2D3A71 /* IQToolbar.swift in Sources */,
+				22BF5066806248FBD63CD64193B95AB6 /* IQUIScrollView+Additions.swift in Sources */,
+				123D28717B28730D7DDD56E56B646294 /* IQUITextFieldView+Additions.swift in Sources */,
+				2BC48BA9EC7B6F6F334FB9CF2758D461 /* IQUIView+Hierarchy.swift in Sources */,
+				0B9FAA59E53F8381BAD75316E70145BE /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				C92BC0B8E4CBCFD16762838B30654F29 /* IQUIViewController+Additions.swift in Sources */,
+				C759ACB2C97ED8A9EC91C2DF79C95F1D /* IQUIWindow+Hierarchy.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49B7CCC656EB1DC7660DC81F18F6DB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				862914ECEA13202B054E1D05492833F3 /* Pods-GreenBridge-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50C97C01DB5896CA07175C9D2789244B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IQKeyboardManagerSwift;
+			target = 4DC059E04CBA98AEDDB5C34E02D551E9 /* IQKeyboardManagerSwift */;
+			targetProxy = 35F75AE01CDDD9060628A6213D755F06 /* PBXContainerItemProxy */;
+		};
+		72BC13936C7D9B7E3F45985B7107F14C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = CAB937E1ECA9CE3E195F214598348404 /* SwiftyJSON */;
+			targetProxy = CEC116EF6CA136E1F1E44851B228A2CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D8F414E49764F893CE41707BD69754A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5A11B35F3ACCC10D2110F6FBAC40F48 /* Pods-GreenBridgeTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GreenBridgeTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GreenBridgeTests/Pods-GreenBridgeTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GreenBridgeTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2A8CDD85E98588F2D2309E3F9E60F3B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C04D194BA73E3ACA569E24CA96688B56 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2C27E4ECCC30A3B466F0D72CE965BD52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94B7072446ED990CF338CE9CBCA927A9 /* Pods-GreenBridgeUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GreenBridgeUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GreenBridgeUITests/Pods-GreenBridgeUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GreenBridgeUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		351959245510CD6DB401BD79DFED1C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97F6D505CC571CD98FDC6CEE034C9FCE /* Pods-GreenBridge.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GreenBridge/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GreenBridge/Pods-GreenBridge.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GreenBridge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B057773120D53DBB692700549D84EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 909B5F6435E4772CA0C7739BD39D2D1D /* IQKeyboardManagerSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = IQKeyboardManagerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8BD4CF7471F7CAD9A5F518650C08D71D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6083F00A1DFA2B4A51D8A18ABFCD48B /* Pods-GreenBridge.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GreenBridge/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GreenBridge/Pods-GreenBridge.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GreenBridge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A2ED5D07909FC9971ABEC4BB630EC6C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 909B5F6435E4772CA0C7739BD39D2D1D /* IQKeyboardManagerSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = IQKeyboardManagerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C86EF7769A429BB540D0917FA33655B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 991F9930AB2712A80AA7B627A942F057 /* Pods-GreenBridgeTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GreenBridgeTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GreenBridgeTests/Pods-GreenBridgeTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GreenBridgeTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D1E4C3AA4B04D9EB85511B9F1254892A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C04D194BA73E3ACA569E24CA96688B56 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED4FC68AB2A4E06C718CFF338F6F156B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1F1B523B9E87208C9181F30007A535C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1375D004094DE06219DF879F55BD1872 /* Pods-GreenBridgeUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GreenBridgeUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GreenBridgeUITests/Pods-GreenBridgeUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GreenBridgeUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */,
+				ED4FC68AB2A4E06C718CFF338F6F156B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A5C3BA2F68A37F2F8CAF7DFAF3212D9 /* Build configuration list for PBXNativeTarget "Pods-GreenBridgeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1F1B523B9E87208C9181F30007A535C /* Debug */,
+				2C27E4ECCC30A3B466F0D72CE965BD52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75B8C8837854098D8D911F8A3335DDAC /* Build configuration list for PBXNativeTarget "IQKeyboardManagerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2ED5D07909FC9971ABEC4BB630EC6C8 /* Debug */,
+				8B057773120D53DBB692700549D84EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A82C7C5136416D366EA0F2C268AD03E /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1E4C3AA4B04D9EB85511B9F1254892A /* Debug */,
+				2A8CDD85E98588F2D2309E3F9E60F3B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6EBCFC029DE6E22638C868FCBB15285 /* Build configuration list for PBXNativeTarget "Pods-GreenBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				351959245510CD6DB401BD79DFED1C26 /* Debug */,
+				8BD4CF7471F7CAD9A5F518650C08D71D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E931019D9411847741B9B3EF5C42FC29 /* Build configuration list for PBXNativeTarget "Pods-GreenBridgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C86EF7769A429BB540D0917FA33655B5 /* Debug */,
+				1D8F414E49764F893CE41707BD69754A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
